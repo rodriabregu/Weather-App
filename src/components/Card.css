@@ -1,0 +1,40 @@
+.card {
+  margin: 20px;
+  width: 18rem;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(255, 0, 0, 0.35); 
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.35);  
+  -webkit-border-radius: 0px 20px 0px 20px;
+  border-radius: 0px 20px 0px 20px;  
+  background: rgba(37, 153, 153, 0.84);
+  border: 6px inset #1C6EA4;
+  font-weight: bold;
+}
+
+.card-title {
+  margin-bottom: 15px;
+}
+
+#closeIcon {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 8px;
+  margin-top: 8px;
+}
+
+.card-body {
+  margin-top: 0px !important;
+  padding-top: 0px !important;
+}
+
+button {
+  background-color: rgb(70, 119, 128) !important;
+  border-color: rgb(70, 119, 128) !important;
+  border-radius: 200px !important;
+  padding: 8px 10px !important;
+  font-size: 5px !important;
+}
+button:hover {
+  color: rgb(20, 20, 20) !important;
+  background: rgb(41, 88, 107) !important;
+}
+

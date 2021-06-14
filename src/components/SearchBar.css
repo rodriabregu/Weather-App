@@ -1,0 +1,37 @@
+.myButton {
+    color: rgb(12, 30, 32); 
+    font-size: 18px; 
+    line-height: 20px; 
+    padding: 2px; border-radius: 6px; 
+    font-family: "Lucida Console", Monaco, monospace;
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-color: rgb(163, 229, 238);
+    box-shadow: rgba(255, 85, 85, 0) 5px 5px 15px 45px; 
+    border: 3px inset rgb(138, 216, 229); 
+    display: inline-block;
+    margin: 8px}
+.myButton:hover 
+{
+    background: #67e0eb; 
+}
+.myButton:active 
+{
+    background: #61f3f3; 
+}
+
+input {
+    padding: 5px;
+    font-size: 17px;
+    border-width: 2px;
+    border-color: #49f1f2;
+    background-color: #ffffff;
+    color: #000000;
+    border-style: solid;
+    border-radius: 6px;
+    box-shadow: 0px 0px 19px rgba(66,66,66,.31);
+    text-shadow: 0px 0px 0px rgba(66,66,66,.75);
+}
